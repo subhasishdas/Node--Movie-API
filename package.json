@@ -1,0 +1,25 @@
+{
+	"name": "movie-library-api",
+	"version": "1.0.0",
+	"description": "Movie Library RESTful API",
+	"keywords": [
+		"Movie Library API",
+		"RESTful API",
+		"Express.js",
+		"Node.js"
+	],
+	"main": "index.js",
+	"scripts": {
+		"import": "mongoimport --db movie-library --collection movies --file movie-library-sample.json --jsonArray"
+	},
+	
+	"author": "Subhasish",
+	"dependencies": {
+		"config": "^3.0.1",
+		"express": "^4.16.4",
+		"helmet": "^3.15.0",
+		"joi": "^14.3.1",
+		"mongoose": "^5.4.7",
+		"morgan": "^1.9.1"
+	}
+}
